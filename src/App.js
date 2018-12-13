@@ -5,6 +5,7 @@ import Navigation from "./component/Navigation";
 import Header from "./component/Header";
 import Servers from "./component/Servers";
 import Team from "./component/Team";
+import Client from "./component/Client";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 
@@ -16,6 +17,7 @@ class App extends Component {
         <Header />
         <Servers />
         <Team />
+        <Client />
         <Contact />
         <Footer />
       </div>

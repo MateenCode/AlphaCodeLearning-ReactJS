@@ -13,29 +13,29 @@ export default function Footer() {
           <div className="col-md-4">
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                <button>
                   <i className="fab fa-twitter" />
-                </a>
+                </button>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <button>
                   <i className="fab fa-facebook-f" />
-                </a>
+                </button>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <button>
                   <i className="fab fa-linkedin-in" />
-                </a>
+                </button>
               </li>
             </ul>
           </div>
           <div className="col-md-4">
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <button>Privacy Policy</button>
               </li>
               <li className="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <button>Terms of Use</button>
               </li>
             </ul>
           </div>

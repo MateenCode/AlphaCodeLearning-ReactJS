@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div id="contact">
+    <section id="contact">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
@@ -79,6 +79,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

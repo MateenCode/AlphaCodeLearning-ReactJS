@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div className="bg-light" id="team">
+    <section class="bg-light" id="team">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
@@ -52,7 +52,7 @@ export default function Team() {
               <h4>Larry Parker</h4>
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
-                  <a>
+                  <a gsdah>
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
@@ -106,6 +106,6 @@ export default function Team() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
